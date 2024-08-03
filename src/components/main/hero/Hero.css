@@ -29,6 +29,7 @@
 .hero__wrap .hero__nav .hero__btn {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 .hero__wrap .hero__nav .hero__btn a {
   text-decoration: underline;
