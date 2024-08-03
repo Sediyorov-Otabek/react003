@@ -1,0 +1,91 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+.nav b {
+  font-weight: 600;
+  font-size: 20px;
+}
+.nav .nav2__collection,
+.nav .nav__collection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.nav .nav__collection {
+  flex: 1;
+}
+.nav .nav__icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.nav .nav__icons .menu {
+  display: none;
+}
+
+@media (max-width: 1146px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+  }
+  .nav b {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .nav .nav2__collection,
+  .nav .nav__collection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .nav .nav__collection {
+    flex: 1;
+    display: none;
+  }
+  .nav .nav__icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .nav .nav__icons .menu {
+    display: block;
+  }
+}
+@media (max-width: 510px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+  }
+  .nav b {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .nav .nav2__collection,
+  .nav .nav__collection {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .nav .nav__collection {
+    flex: 1;
+    display: none;
+  }
+  .nav .nav__icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .nav .nav__icons .menu {
+    display: block;
+  }
+}/*# sourceMappingURL=Header.css.map */
